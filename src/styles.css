@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray, to(rgb(51,51,51))));
+  background-image: -webkit-linear-gradient(top, gray, rgb(51,51,51));
+  background-image: -moz-linear-gradient(top, gray, rgb(51,51,51));
+  background-image: linear-gradient(to bottom, gray, rgb(51,51,51));
+  height: 100vh;
+  width: 100vw;
+}
+
+.board {
+  display: inline-block;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  background-color: rgb(51,51,51);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.65);
+}
+
+.game-title {
+  font-family: Courier New, Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(51,51,51);
+  text-shadow: 0px 0px 5px rgba(255,255,255,0.65);
+  padding: 10px;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.container {
+  padding: 10px;
+}
+
+.gen-title {
+  color: lightgray;
+  font-weight: bold;
+}
+.gen-value {
+  text-align: left;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.btn {
+  min-width: 64px;
+  border-style: line;
+  border-width: 1px;
+  border-color: rgb(51,51,51);
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+.btn:active {
+  border-color: rgb(119,119,119);
+}
+
+.btn-next {
+  background-color: goldenrod;
+}
+.btn-next:active {
+  background-color: darkgoldenrod;
+}
+
+.btn-simulate {
+  background-color: green;
+}
+.btn-simulate:active {
+  background-color: darkgreen;
+}
+
+.btn-clear {
+  background-color: white;
+  color: rgb(51,51,51);
+}
+.btn-clear:active {
+  background-color: rgb(200,200,200);
+}
+
+.btn-random {
+  background-color: dodgerblue;
+}
+.btn-random:active {
+  background-color: #1469bd;
+}
+
+.ctl-speed-title {
+  font-size: 0.65em;
+  font-weight: bold;
+  color: rgb(51,51,51);
+}
+.ctl-speed-container {
+  background-color: silver;
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: outset;
+}
+
+.footer {
+  font-family: Courier New, Courier, monospace;
+  padding-top: 20px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px rgba(255,255,255,0.65);
+}
